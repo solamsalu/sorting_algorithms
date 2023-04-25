@@ -7,11 +7,11 @@
 #include <unistd.h>
 
 /**
- * struct listint_s - It is Doubly linked list node
+ * struct listint_s - Doubly linked list node
  *
  * @n: Integer stored in the node
- * @prev: Pointer to the previous element
- * @next: Pointer to the next element
+ * @prev: Pointer to the previous element of the list
+ * @next: Pointer to the next element of the list
  */
 typedef struct listint_s
 {
